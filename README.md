@@ -1,46 +1,100 @@
-# Getting Started with Create React App
+# Инструкция по локальному запуску проекта "GitHub Search"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Установка окружения
 
-## Available Scripts
+Перед началом работы убедитесь, что у вас установлены:
 
-In the project directory, you can run:
+- **Node.js** (версия 16.x или выше)
+- **npm** (версия 8.x или выше)
 
-### `npm start`
+Проверьте версии командой:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```sh
+node -v
+npm -v
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 2. Клонирование репозитория
 
-### `npm test`
+Клонируйте проект на ваш локальный компьютер:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+git clone https://github.com/MeDiaMih/GitHubSearch.git
+```
 
-### `npm run build`
+Перейдите в папку проекта:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+cd GitHubSearch
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 3. Создание файла окружения
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Проект использует API GitHub, для работы необходимо создать `.env` файл в корневой директории и добавить туда ваш токен
+доступа:
 
-### `npm run eject`
+```
+REACT_APP_GITHUB_TOKEN='github_pat_'
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 4. Установка зависимостей
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Установите все необходимые пакеты:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 5. Запуск проекта
 
-## Learn More
+Для запуска используйте команду:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Проект запустится, и вы сможете открыть его в браузере по адресу:
+
+```
+http://localhost:3000
+```
+
+## 6. Функциональные возможности
+
+### Поиск и сортировка
+
+- Реализован поиск по репозиториям GitHub с автозаполнением.
+- Поддерживается сортировка результатов.
+- Значения поиска и сортировки сохраняются в URL, что позволяет делиться ссылками и сохранять текущий контекст.
+
+### Работа с избранными
+
+- Реализовано добавление репозиториев в избранное.
+- Список избранных репозиториев сохраняется в Local Storage, поэтому не теряется после обновления страницы.
+
+### Дополнительные функции
+
+- Реализована страница списка избранных репозиториев.
+- При нажатии на карточку репозитория открывается страница с подробной информацией.
+- Копирование ссылки на репозиторий в буфер обмена с помощью `clipboard-copy`.
+
+## 7. Сборка проекта
+
+Для создания production-сборки выполните команду:
+
+```sh
+npm run build
+```
+
+Готовые файлы появятся в папке `build/`.
+
+## 8. Дополнительная информация
+
+Если возникли ошибки при запуске, проверьте:
+
+- Соответствие версии Node.js и npm требованиям проекта.
+- Корректность API-токена GitHub в `.env` файле.
+- Доступность GitHub API.
+
+Если у вас остались вопросы, свяжитесь с автором проекта или ознакомьтесь с кодом репозитория.
+
