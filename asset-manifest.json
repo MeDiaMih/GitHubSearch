@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/GitHubSearch/static/js/main.848da0fb.js",
+    "static/media/Fork.svg": "/GitHubSearch/static/media/Fork.88c969968cc95ea561f3aae01e4602cc.svg",
+    "static/media/Create.svg": "/GitHubSearch/static/media/Create.94aae43ff551b4dab47f3adfe57abd68.svg",
+    "static/media/Archive.svg": "/GitHubSearch/static/media/Archive.3eb32d11fbe225239a8e090d2fafd250.svg",
+    "static/media/Star.svg": "/GitHubSearch/static/media/Star.ab96f8861d493a57f6c5107e63a42c54.svg",
+    "static/media/Search.svg": "/GitHubSearch/static/media/Search.71eb3a567a12e53731643f45c8c3f64b.svg",
+    "static/media/Folder.svg": "/GitHubSearch/static/media/Folder.e5851ce8f026704efc715c42dd70baf0.svg",
+    "index.html": "/GitHubSearch/index.html",
+    "static/media/Link.svg": "/GitHubSearch/static/media/Link.92608e0ce757c68dbfd05000cec94755.svg",
+    "static/media/Account.svg": "/GitHubSearch/static/media/Account.901e22a85ad9145d1ca4ce4c86a51df1.svg",
+    "static/media/Favorite.svg": "/GitHubSearch/static/media/Favorite.1f4b199130c068169aa583d81af15db8.svg",
+    "static/media/FavoriteOutline.svg": "/GitHubSearch/static/media/FavoriteOutline.3e349d09240ca32f0f5284abe591018b.svg",
+    "static/media/Terminal.svg": "/GitHubSearch/static/media/Terminal.a9bad5013ad9ab830fbeae94f90de44d.svg",
+    "static/media/FavoriteOutlineRed.svg": "/GitHubSearch/static/media/FavoriteOutlineRed.0e10b6f794bfe8b3a639af9956889ca1.svg",
+    "static/media/Arrow.svg": "/GitHubSearch/static/media/Arrow.38357259308033c0f2c1628fb5ff03af.svg",
+    "main.848da0fb.js.map": "/GitHubSearch/static/js/main.848da0fb.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.848da0fb.js"
+  ]
+}
